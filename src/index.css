@@ -316,6 +316,27 @@ main {
 }
 .prose a:hover { color: var(--red); }
 
+/* ── EPIGRAPH ───────────────────────────── */
+.epigraph {
+  margin-bottom: 3.5rem;
+  max-width: 48ch;
+}
+
+.epigraph p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.65;
+  margin-bottom: 0.35rem;
+}
+
+.epigraph cite {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
 /* ── PROJECTS ───────────────────────────── */
 .entry { margin-bottom: 3.75rem; }
 .entry:last-child { margin-bottom: 0; }

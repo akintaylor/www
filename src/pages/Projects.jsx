@@ -40,6 +40,10 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects">
+      <blockquote className="epigraph">
+        <p>Cast your bread upon the waters, for you will find it after many days.</p>
+        <cite>Ecclesiastes 11:1</cite>
+      </blockquote>
       {projects.map(p => (
         <div className="entry" key={p.name}>
           <h2 className="entry-title">{p.name}</h2>
