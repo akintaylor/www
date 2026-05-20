@@ -323,17 +323,17 @@ main {
 }
 
 .epigraph p {
-  font-size: 0.9rem;
+  font-size: 0.78rem;
   color: var(--muted);
   font-style: italic;
   line-height: 1.65;
-  margin-bottom: 0.35rem;
+  /* margin-bottom: 0.35rem; */
 }
 
 .epigraph cite {
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   color: var(--muted);
-  font-style: normal;
+  font-style: italic;
   letter-spacing: 0.03em;
 }
 
